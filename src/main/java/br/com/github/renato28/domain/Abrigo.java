@@ -12,11 +12,10 @@ public class Abrigo {
 
     }
 
-    public Abrigo(String nome, String telefone, String email, Pet[] pets) {
+    public Abrigo(String nome, String telefone, String email) {
         this.nome = nome;
         this.telefone = telefone;
         this.email = email;
-        this.pets = pets;
     }
 
     public Long getId() {
